@@ -1,4 +1,7 @@
-# Basic initialisation
+# Melior Meteor
+As I create more and more Meteor applications as part of my work with [Melior Enterprises](http://meliorenterprises.com), I thought it would be useful to put together a "quickstart" kit of all the basic setup and boilerplate that I use in pretty much every Meteor project.
+
+## Quickstart
 
 * run `meteor create yourAppName`
 * run `cd yourAppName`
