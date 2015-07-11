@@ -1,0 +1,16 @@
+{
+    "public": {
+        "site": {
+            "name": "Site name"
+        }
+    },
+    "mandrill": {
+        "username": "mandrillUserName",
+        "key": "mandrillApiKey"
+    },
+    "site": {
+        "siteEmailAddress": "hi@yourdomain.com",
+        "siteEmailSender": "John from Your site name",
+        "superuserEmailAddress": "admin@yourdomain.com"
+    }
+}

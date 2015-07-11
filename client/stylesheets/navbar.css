@@ -1,0 +1,6 @@
+.navbar-no-rounded-corners {
+    border-radius: 0px !important;
+}
+.navbar .avatar {
+    margin-top: 4px;
+}
