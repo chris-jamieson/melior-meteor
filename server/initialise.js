@@ -35,7 +35,7 @@ Meteor.startup(function() {
     }
 
     // Mandrill config
-    Meteor.Mandrill.config({
+    Mandrill.config({
         username: Meteor.settings.mandrill.username,
         key: Meteor.settings.mandrill.key
     });
