@@ -11,14 +11,14 @@ Meteor.startup(function() {
         // showOtherLoginServices: true,      // Set to false to hide oauth login buttons on the signin/signup pages. Useful if you are using something like accounts-meld or want to oauth for api access
         extraSignUpFields: [ // Add extra signup fields on the signup page
             {
-                field: "profile.firstName", // The database property you want to store the data in
+                field: "firstName", // will be saved to profile.firstName field on user document
                 name: "", // An initial value for the field, if you want one
                 label: "First name", // The html lable for the field
                 placeholder: "Francis", // A placeholder for the field
                 type: "text", // The type of field you want
                 required: true // Adds html 5 required property if true
             }, {
-                field: "profile.lastName", // The database property you want to store the data in
+                field: "lastName", // will be saved to profile.lastName field on user document
                 name: "", // An initial value for the field, if you want one
                 label: "Last name", // The html lable for the field
                 placeholder: "Underwood", // A placeholder for the field
